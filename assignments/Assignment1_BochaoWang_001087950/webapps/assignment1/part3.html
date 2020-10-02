@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This is form for part3
+        </title>
+    </head>
+    <body>
+        <form action="part3" method = "post">
+            <label>Email: </label> <Input type="text" name="Email" id="Email"/>
+            <br>
+            <label>Password: </label> <Input type="text" name ="Password" id="Password"/>
+            <br>
+            <label>Confirm Password:</label> <Input type="text" name ="PasswordConfirmed" id="PasswordConfirmed"/>
+            <br>
+            <label>Upload Your Picture: </label> <Input type="file" name = "PicPath" id="PicPath"/>
+            <br>
+
+            <label>Gender: </label>
+                <Input type="radio" name = "Gender" id ="Gender" value="Male" /> Male
+                <Input type="radio" name = "Gender" id ="Gender" value="Female" /> Female
+            <br>
+            <label>Select Country: </label>
+            <select name="Country" id = "Country">
+                <option>Please Select Your Country</option>
+                <option value = "USA">USA</option>
+                <option value = "China">China</option>
+                <option value = "Japan">Japan</option>
+                <option value = "Canada">Canada</option>
+                <option value = "UK">UK</option>
+                <option value = "India">India</option>
+            </select>
+            <br>
+
+            <label>Hobby: </label>
+            <Input type = "checkbox" name = "Hobby" id ="Hobby" value = "Cricket" />Cricket
+            <Input type = "checkbox" name = "Hobby" id ="Hobby" value = "Football" />Football
+            <br>
+
+            <label>Address: </label>
+            <Input type="text" name = "Address" id ="Address" />
+            <br>
+
+            <input type="submit" value = "Submit"/>
+        </form>
+    </body>
+
+</html>
